@@ -226,7 +226,7 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "/",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
