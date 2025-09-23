@@ -34,9 +34,9 @@ const Contact = () => {
         "template_17us8im",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Aayush Meshram",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "business.aayush05@gmail.com",
           message: formData.message,
         },
         "pn-Bw_mS1_QQdofuV"
@@ -78,7 +78,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="Your Name"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -94,7 +94,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="Your Email"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}
